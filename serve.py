@@ -12,7 +12,7 @@ import os
 import getpass
 
 
-os.environ['OPENAI_API_KEY'] = "sk-proj-xCb9h2MQc4zewTS06RbWT3BlbkFJfOPKAe6IZ6L1ylNB7BXV"
+os.environ['OPENAI_API_KEY'] = getpass.getpass()
 
 
 systemTemplate = "Translate the following into {language} :"
